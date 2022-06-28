@@ -25,10 +25,7 @@ public class LoadCustomCharacter : MonoBehaviour
     void Awake()
     {
         script = GameObject.Find("PlayerInformation").GetComponent<PlayerInformation>();
-
-
         animateScripts = getAnimateScripts(bodyParts.Length);
-
         for(int i = 0; i < animateScripts.Length; i++)
         {
             string currentPath;
@@ -39,16 +36,30 @@ public class LoadCustomCharacter : MonoBehaviour
             {
                 //Assets/Resources/Bodies/Body_01.png
                 currentPath = body + script.body.name;
+                
                 currentPath = currentPath.Substring(0, currentPath.Length - 2);
                 Debug.Log(currentPath);
                 tempSprites = Resources.LoadAll<Sprite>(currentPath);
-                temp.downIdle = loadSprites(22, tempSprites);
-                temp.upIdle = loadSprites(10, tempSprites);
-                temp.sideIdle = loadSprites(4, tempSprites);
+                if (currentPath == "Bodies/Body_01")
+                {
+                    temp.downIdle = loadSprites(22, tempSprites);
+                    temp.upIdle = loadSprites(10, tempSprites);
+                    temp.sideIdle = loadSprites(4, tempSprites);
 
-                temp.downWalk = loadSprites(48, tempSprites);
-                temp.upWalk = loadSprites(36, tempSprites);
-                temp.sideWalk = loadSprites(30, tempSprites);
+                    temp.downWalk = loadSprites(48, tempSprites);
+                    temp.upWalk = loadSprites(36, tempSprites);
+                    temp.sideWalk = loadSprites(30, tempSprites);
+                }
+                else
+                {
+                    temp.downIdle = loadSprites(22, tempSprites);
+                    temp.upIdle = loadSprites(10, tempSprites);
+                    temp.sideIdle = loadSprites(4, tempSprites);
+
+                    temp.downWalk = loadSprites(46, tempSprites);
+                    temp.upWalk = loadSprites(34, tempSprites);
+                    temp.sideWalk = loadSprites(28, tempSprites);
+                }
             }
             // eyes
             if(i == 1)
@@ -85,13 +96,27 @@ public class LoadCustomCharacter : MonoBehaviour
                 currentPath = hats + script.hat.name;
                 currentPath = currentPath.Substring(0, currentPath.Length - 2);
                 tempSprites = Resources.LoadAll<Sprite>(currentPath);
-                temp.downIdle = loadSprites(22, tempSprites);
-                temp.upIdle = loadSprites(10, tempSprites);
-                temp.sideIdle = loadSprites(4, tempSprites);
+                if (currentPath.Contains("Ladybug") || currentPath.Contains("Bee"))
+                {
+                    temp.downIdle = loadSprites(26, tempSprites);
+                    temp.upIdle = loadSprites(14, tempSprites);
+                    temp.sideIdle = loadSprites(8, tempSprites);
 
-                temp.downWalk = loadSprites(46, tempSprites);
-                temp.upWalk = loadSprites(34, tempSprites);
-                temp.sideWalk = loadSprites(28, tempSprites);
+                    temp.downWalk = loadSprites(74, tempSprites);
+                    temp.upWalk = loadSprites(62, tempSprites);
+                    temp.sideWalk = loadSprites(56, tempSprites);
+                }
+                else
+                {
+                    temp.downIdle = loadSprites(22, tempSprites);
+                    temp.upIdle = loadSprites(10, tempSprites);
+                    temp.sideIdle = loadSprites(4, tempSprites);
+
+                    temp.downWalk = loadSprites(46, tempSprites);
+                    temp.upWalk = loadSprites(34, tempSprites);
+                    temp.sideWalk = loadSprites(28, tempSprites);
+                }
+               
             }
             // backpack
             if(i == 4)

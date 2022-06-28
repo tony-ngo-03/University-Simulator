@@ -21,7 +21,7 @@ public class IntroductionScript : MonoBehaviour
     {
         if(counter == 2)
         {
-            if (Input.GetKeyDown(KeyCode.F))
+            if (Input.GetKeyDown(KeyCode.Return))
             {
                 canContinue = true;
                 counter++;
@@ -42,7 +42,7 @@ public class IntroductionScript : MonoBehaviour
         {
             GameObject.Find("CollegeStudent").transform.position = originalCollegePlace;
         }
-       if (Input.GetKeyDown(KeyCode.F) && canContinue)
+       if (Input.GetKeyDown(KeyCode.Return) && canContinue)
         {
             counter++;
             Debug.Log(counter);
