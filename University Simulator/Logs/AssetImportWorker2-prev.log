@@ -1,0 +1,948 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16342 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/TONY/Documents/GitHub/University-Simulator/University Simulator
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+57024
+Successfully changed project path to: C:/Users/TONY/Documents/GitHub/University-Simulator/University Simulator
+C:/Users/TONY/Documents/GitHub/University-Simulator/University Simulator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 101.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/TONY/Documents/GitHub/University-Simulator/University Simulator/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 740 (ID=0xfc8)
+    Vendor:   NVIDIA
+    VRAM:     984 MB
+    Driver:   30.0.14.7347
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.019376 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 79.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.072 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1073ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (720ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (187ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (398ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010580 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 73.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.895 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4896ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (4515ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (3919ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (3612ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2497 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (55.7 KB). Loaded Objects now: 2959.
+Memory consumption went from 114.1 MB to 114.1 MB.
+Total: 7.667800 ms (FindLiveObjects: 0.278800 ms CreateObjectMapping: 0.108800 ms MarkObjects: 7.119600 ms  DeleteObjects: 0.158200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 777.480418 seconds.
+  path: Assets/Scenes/MainMap.unity
+  artifactKey: Guid(c0eb4850558eeef48addef5a40b0c02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMap.unity using Guid(c0eb4850558eeef48addef5a40b0c02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7517b3617daedc5b9e65933f657da2e8') in 0.035778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.969094 seconds.
+  path: Assets/Scenes/Gym.unity
+  artifactKey: Guid(e1cf228fd4fa5ee42942aae60f8ca016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gym.unity using Guid(e1cf228fd4fa5ee42942aae60f8ca016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1951cfd139c4a73a3e60ab89e9812808') in 0.010894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.054620 seconds.
+  path: Assets/Characters/Noah/Noah.png
+  artifactKey: Guid(7c29338aded1ef948aca75ea195359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Noah/Noah.png using Guid(7c29338aded1ef948aca75ea195359a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270b6a8c6069132366987797e428ed3a') in 1.806045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 232.061053 seconds.
+  path: Assets/Interior/3D Walls/Room_Builder_3d_walls_16x16.png
+  artifactKey: Guid(67bfb321414940c40933ca8658b1c4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/3D Walls/Room_Builder_3d_walls_16x16.png using Guid(67bfb321414940c40933ca8658b1c4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1894c375a93a2cb04ebfc16a2526693') in 0.179427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.178565 seconds.
+  path: Assets/Interior/3D Walls/Room_Builder_3d_walls_16x16.png
+  artifactKey: Guid(67bfb321414940c40933ca8658b1c4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/3D Walls/Room_Builder_3d_walls_16x16.png using Guid(67bfb321414940c40933ca8658b1c4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb6efe71534771bf79e7a4f361b1d6a') in 0.153215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 338.113470 seconds.
+  path: Assets/Interior/3D Walls/Room_Builder_3d_walls_16x16.png
+  artifactKey: Guid(67bfb321414940c40933ca8658b1c4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/3D Walls/Room_Builder_3d_walls_16x16.png using Guid(67bfb321414940c40933ca8658b1c4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf50d2df7097c47216d9b99bbc978178') in 0.173407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.628770 seconds.
+  path: Assets/Interior/Floor
+  artifactKey: Guid(af854ef53b5b5d34092f2a792ef70245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Floor using Guid(af854ef53b5b5d34092f2a792ef70245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2277fa82c881f6aa6c5dff30c0460e') in 0.024917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014183 seconds.
+  path: Assets/Interior/Floor/Room_Builder_Floors_16x16.png
+  artifactKey: Guid(dfd8c9231f89eb840ac4521f37203e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Floor/Room_Builder_Floors_16x16.png using Guid(dfd8c9231f89eb840ac4521f37203e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a65687f4e226f487871d2068016035') in 0.082401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.755934 seconds.
+  path: Assets/Interior/Floor/Room_Builder_Floors_16x16.png
+  artifactKey: Guid(dfd8c9231f89eb840ac4521f37203e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Floor/Room_Builder_Floors_16x16.png using Guid(dfd8c9231f89eb840ac4521f37203e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d640b1f6a9d20ef02552fadacc288eb') in 0.032958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.697939 seconds.
+  path: Assets/Interior/Specific Interior
+  artifactKey: Guid(42a10fe29ec58d040bd2dd395a64208d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior using Guid(42a10fe29ec58d040bd2dd395a64208d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fae53da7f020e06565c60d263408533') in 0.017337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023885 seconds.
+  path: Assets/Interior/Specific Interior/1_Generic_16x16.png
+  artifactKey: Guid(41825245e4ad21541b19b5baa4b32a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/1_Generic_16x16.png using Guid(41825245e4ad21541b19b5baa4b32a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67948825745225f67cdfc46059e13e0') in 0.061666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Interior/Specific Interior/Classroom_and_Library_Singles_49.png
+  artifactKey: Guid(458ce261e71eb7146b48944b5b8e749b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Classroom_and_Library_Singles_49.png using Guid(458ce261e71eb7146b48944b5b8e749b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d72d22b8a9cc1f626a18a53397b7a14') in 0.090839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Interior/Specific Interior/Classroom_and_Library_Singles_52.png
+  artifactKey: Guid(1dbbb8eecc5836847b3582ead8f3eb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Classroom_and_Library_Singles_52.png using Guid(1dbbb8eecc5836847b3582ead8f3eb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf59d2164530454dccfdd003643c3e9') in 0.058196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Interior/Specific Interior/Classroom_and_Library_Singles_50.png
+  artifactKey: Guid(a4c901283f1ca544cabc10b8953a9a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Classroom_and_Library_Singles_50.png using Guid(a4c901283f1ca544cabc10b8953a9a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc2bf3df6b001280dd5882ab93fd4ed') in 0.045873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.527512 seconds.
+  path: Assets/Interior/Specific Interior/Gym
+  artifactKey: Guid(74c74db314167524f87de428e4e97ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym using Guid(74c74db314167524f87de428e4e97ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b0b93f54f1f0364d166c2d7ee6cd11') in 0.009125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.637292 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_161.png
+  artifactKey: Guid(ce458fe9394d6f14d968e0cadcc37f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_161.png using Guid(ce458fe9394d6f14d968e0cadcc37f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e762118f1ca03a57607e99616659956') in 0.043836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_163.png
+  artifactKey: Guid(e9127f7d4d4c1264cb5f34a77f9cf07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_163.png using Guid(e9127f7d4d4c1264cb5f34a77f9cf07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea662c895ddb0fc650dd17ed0c216d86') in 0.062859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_194.png
+  artifactKey: Guid(404a5a0fdb417c249a6da42712293470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_194.png using Guid(404a5a0fdb417c249a6da42712293470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabc840e84bc5a2c6e21a513aef52c17') in 0.031136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_189.png
+  artifactKey: Guid(92e777f7fd906024f90cad4402ade15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_189.png using Guid(92e777f7fd906024f90cad4402ade15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e0878a7f68e7453f99bdfc2416a6d0') in 0.030606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_195.png
+  artifactKey: Guid(2816de2c280ac6b4daba401fd1366746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_195.png using Guid(2816de2c280ac6b4daba401fd1366746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61039240aaecca3b830f111650667d5') in 0.026257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_204.png
+  artifactKey: Guid(a9897c56b7d61b047b128ecdb895297b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_204.png using Guid(a9897c56b7d61b047b128ecdb895297b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e286f701fb5760d752f9828a96aff53') in 0.034551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_177.png
+  artifactKey: Guid(344babdd5069a6f4cb7598bc00eb1515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_177.png using Guid(344babdd5069a6f4cb7598bc00eb1515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18d2c48e88bc9f1760b390319ba1dfd') in 0.073356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_187.png
+  artifactKey: Guid(5c4772bef4e3771438e21801a2edd1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_187.png using Guid(5c4772bef4e3771438e21801a2edd1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e9f731f318327ee156bae94db9c7a2') in 0.033512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_199.png
+  artifactKey: Guid(0e8bc36963d892a408d0e918c3ed0f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_199.png using Guid(0e8bc36963d892a408d0e918c3ed0f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74162e4e81da4b2e3ee10698c874856a') in 0.027445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_178.png
+  artifactKey: Guid(5d5712a0b42a568449670c0841d87b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_178.png using Guid(5d5712a0b42a568449670c0841d87b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d7277ff5ffb51708e3e33236279626') in 0.025369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_174.png
+  artifactKey: Guid(1c9e54f722552064db7c39271ea8fb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_174.png using Guid(1c9e54f722552064db7c39271ea8fb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82aa8b6a3fff528ba83e16475c85fc2') in 0.035580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_188.png
+  artifactKey: Guid(a56b46fed0a19ba429fe04fb72efad25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_188.png using Guid(a56b46fed0a19ba429fe04fb72efad25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea68e63ef157d8c49d8c13481d1f0d4') in 0.051022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_173.png
+  artifactKey: Guid(c600f83947a794046ba105546db25e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_173.png using Guid(c600f83947a794046ba105546db25e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41682db04d8e76303ab24b59e0617602') in 0.041594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_168.png
+  artifactKey: Guid(db58598d7540731499150c5de04f372b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_168.png using Guid(db58598d7540731499150c5de04f372b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c06f916fc9319658dac9322a16209f') in 0.029168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_192.png
+  artifactKey: Guid(3da642a3acddd9d46afad5b59d650d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_192.png using Guid(3da642a3acddd9d46afad5b59d650d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefb5c32b8f0292a5510e40ade609150') in 0.024961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_205.png
+  artifactKey: Guid(7caa62e4c6b74ca4bada042dbbd5cc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_205.png using Guid(7caa62e4c6b74ca4bada042dbbd5cc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db25b75420cf708295d921ae85f95c45') in 0.032848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_198.png
+  artifactKey: Guid(a2f177bfd836f6d4386e53a8fb649add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_198.png using Guid(a2f177bfd836f6d4386e53a8fb649add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0068ecf01a8e1a1ab013e5e6328c76') in 0.028261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_164.png
+  artifactKey: Guid(e18a687332e7245429251232a89c77a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_164.png using Guid(e18a687332e7245429251232a89c77a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ce589e2bad27633b2fdd2916bf4009') in 0.025075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_207.png
+  artifactKey: Guid(bebb2d123cd2157478a97ac3b3a3b22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_207.png using Guid(bebb2d123cd2157478a97ac3b3a3b22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03897876a66c2289dab2dd46d9bda4f') in 0.032539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_193.png
+  artifactKey: Guid(cdbd2ec61d83dd14f8bce210e988ad77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_193.png using Guid(cdbd2ec61d83dd14f8bce210e988ad77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653df3bad5ec016dc8802aeb94862306') in 0.027225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_182.png
+  artifactKey: Guid(7485af85d5d34d84ba9c1babb6fea4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_182.png using Guid(7485af85d5d34d84ba9c1babb6fea4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8fc150bf10c7e1f12f921096bd56e2') in 0.027209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_206.png
+  artifactKey: Guid(de36d62a5d90e7545a39e328493484e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_206.png using Guid(de36d62a5d90e7545a39e328493484e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3344eed7c93a7b919020de6eb4c3fb') in 0.042263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_169.png
+  artifactKey: Guid(a260112ce705151488ea0430eca6c260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_169.png using Guid(a260112ce705151488ea0430eca6c260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe20230115dcfdf98454cf2db07a4a4') in 0.046241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.227531 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_145.png
+  artifactKey: Guid(f5311ffe2dc563b4ca76d82ab9fbef27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_145.png using Guid(f5311ffe2dc563b4ca76d82ab9fbef27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4189eb61eb7652051396aaef2b664b') in 0.037401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_129.png
+  artifactKey: Guid(b2bc091d6793bc2489feac8734c89cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_129.png using Guid(b2bc091d6793bc2489feac8734c89cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e1909467ad3d5ad52479eef1b1f5a9') in 0.026676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_140.png
+  artifactKey: Guid(08d99f28a2f2efe42ab91c549f900c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_140.png using Guid(08d99f28a2f2efe42ab91c549f900c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe95f2b63214903ead29f536687adc0') in 0.037440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_110.png
+  artifactKey: Guid(e1f390c23d1503144b444b56e8143d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_110.png using Guid(e1f390c23d1503144b444b56e8143d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832f037cff18a8f2235c9067ecb94f0d') in 0.026785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_88.png
+  artifactKey: Guid(d4d5ce10512ae0246ac14f966f4e3bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_88.png using Guid(d4d5ce10512ae0246ac14f966f4e3bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a4bf6b619ddea3437109587bd2c2be') in 0.024613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_137.png
+  artifactKey: Guid(3943b8b822249924c8f7d0b3f2b9c4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_137.png using Guid(3943b8b822249924c8f7d0b3f2b9c4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eece96aeea5de5e5abf325dd7f14a74') in 0.026355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_153.png
+  artifactKey: Guid(69f5010417312344d94205573d8ad44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_153.png using Guid(69f5010417312344d94205573d8ad44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adb23958421f133b2ed63af16472fcc') in 0.023483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_105.png
+  artifactKey: Guid(d68d49e7445529642b48880a12da111b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_105.png using Guid(d68d49e7445529642b48880a12da111b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f17690e5a06ba7b152535e24c31af4') in 0.026719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_121.png
+  artifactKey: Guid(4e8f2410f298a404085491dd1c376d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_121.png using Guid(4e8f2410f298a404085491dd1c376d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcc79bb1649b955fc6e81dd20644ae2') in 0.025682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_128.png
+  artifactKey: Guid(79ce5d223dc6a664aa53f5ac8cd9f96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_128.png using Guid(79ce5d223dc6a664aa53f5ac8cd9f96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88771b4181d1adacfaf2b02cc61d3a98') in 0.025137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_102.png
+  artifactKey: Guid(8d685d84793e2664cb2532d0b07144ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_102.png using Guid(8d685d84793e2664cb2532d0b07144ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94b4f444892c8654a5865b6a529b2d1') in 0.028222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_156.png
+  artifactKey: Guid(61030c426526fc64ab830f7b6508ebd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_156.png using Guid(61030c426526fc64ab830f7b6508ebd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4042c7e5e6561edf21a53d5b525a9b') in 0.027958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_154.png
+  artifactKey: Guid(d831d4efb177df84380fe65628b38c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_154.png using Guid(d831d4efb177df84380fe65628b38c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091cadc97c74890329f387c234eb8aaf') in 0.022122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_61.png
+  artifactKey: Guid(dc9e962ab6111cc4e98b47496a8aeb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_61.png using Guid(dc9e962ab6111cc4e98b47496a8aeb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57be80ed6770b74df760e210665ad15') in 0.027849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_70.png
+  artifactKey: Guid(9458f5d2b97f2f74392060de2ff226c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_70.png using Guid(9458f5d2b97f2f74392060de2ff226c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee5a27d88f84b874764113e8dfa2dbc') in 0.027802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_40.png
+  artifactKey: Guid(54d2d6aa505d6fd459a7c83c57c35245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_40.png using Guid(54d2d6aa505d6fd459a7c83c57c35245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0f4e93e72d7ef99ea4553e53087d21') in 0.026702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_18.png
+  artifactKey: Guid(b7309c893ee8b7a409a510f81eb45d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_18.png using Guid(b7309c893ee8b7a409a510f81eb45d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c94c4a6674a3292157e9f3844e0230b') in 0.027201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_48.png
+  artifactKey: Guid(d18973f65fcc83c4382292bb4b2dcf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_48.png using Guid(d18973f65fcc83c4382292bb4b2dcf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc58249ec8129dfb9f7d8e92e57afc5a') in 0.027519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_17.png
+  artifactKey: Guid(15057556c7347b8478e50ddd0b7e4149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_17.png using Guid(15057556c7347b8478e50ddd0b7e4149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115242cfdeeb99936977f87a5515c93e') in 0.027136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_78.png
+  artifactKey: Guid(d6d6bebcc41047644b7140b871289253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_78.png using Guid(d6d6bebcc41047644b7140b871289253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eef19e5bb09c338d057bc9fede209cd') in 0.023956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_58.png
+  artifactKey: Guid(fb358874118487041ad48d5a60e7e432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_58.png using Guid(fb358874118487041ad48d5a60e7e432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b8dbfd21f9c391283153fd164fb1fd') in 0.026107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_150.png
+  artifactKey: Guid(7a525361698795349a0346a6c8b0bd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_150.png using Guid(7a525361698795349a0346a6c8b0bd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626047f06045833dff47d54065e205b5') in 0.028488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_98.png
+  artifactKey: Guid(888f6c8bc0ba7224f8e07211dc259a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_98.png using Guid(888f6c8bc0ba7224f8e07211dc259a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df441873d96f1471b65e47f2b0680154') in 0.026661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_5.png
+  artifactKey: Guid(9fbc7e6c0d3819c46bc602a6c3a65ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_5.png using Guid(9fbc7e6c0d3819c46bc602a6c3a65ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b40c56612130e01e42b33f32ea9e81f') in 0.326360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_6.png
+  artifactKey: Guid(6774370a4eb33ee4997277e3dfce18c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_6.png using Guid(6774370a4eb33ee4997277e3dfce18c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4027785bf0dce3d10809b4fb6482e7e6') in 0.026065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_1.png
+  artifactKey: Guid(106a7dafe2911ce4992100d47de0c074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_1.png using Guid(106a7dafe2911ce4992100d47de0c074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890161f4467f7ffc75d14e6222f8dfba') in 0.029277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_11.png
+  artifactKey: Guid(37eab27bed5f56a4395273bd35802910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_11.png using Guid(37eab27bed5f56a4395273bd35802910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3f86ef808e47a01370f42842511371') in 0.028498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_51.png
+  artifactKey: Guid(9694f5f745521d6488f286fe86afbe5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_51.png using Guid(9694f5f745521d6488f286fe86afbe5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e328af5fe0000dbafec0f8c83fa5ce9') in 0.028224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_30.png
+  artifactKey: Guid(851570f7a5844f449bea36261a178fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_30.png using Guid(851570f7a5844f449bea36261a178fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48333064e7300b99ed294ac000b7c0df') in 0.026435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_136.png
+  artifactKey: Guid(96f887a382134784a94fcc5e40c2e1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_136.png using Guid(96f887a382134784a94fcc5e40c2e1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aba8e3454697f4007e716e31b37b889') in 0.030055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_109.png
+  artifactKey: Guid(99f586a47cd1d6e4db5cc9f1e27a8a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_109.png using Guid(99f586a47cd1d6e4db5cc9f1e27a8a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42eb63fec21db03b891f16def52eedd4') in 0.027217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_157.png
+  artifactKey: Guid(021c0a18784b5074dbdef2101705b610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_157.png using Guid(021c0a18784b5074dbdef2101705b610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20cf69bba80b4a5ef34552b12f1e1ac') in 0.027547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_57.png
+  artifactKey: Guid(8d8b3acd238c52c429110923e6923470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_57.png using Guid(8d8b3acd238c52c429110923e6923470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b11a3f52e334fa86e632a206f605c6') in 0.029052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_26.png
+  artifactKey: Guid(99d6518b120b60e4d8505c14119d9323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_26.png using Guid(99d6518b120b60e4d8505c14119d9323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e9e034489cb8867cffe860dee68b93') in 0.026928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_89.png
+  artifactKey: Guid(18ad886ae8419f349beedb8199a1d17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_89.png using Guid(18ad886ae8419f349beedb8199a1d17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75464ded3669f32cd455008d60c26e47') in 0.030417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_119.png
+  artifactKey: Guid(d275eede5109dc749b591dae3034c43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_119.png using Guid(d275eede5109dc749b591dae3034c43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddf53026f75a1b3c0348bc6cf4a189e') in 0.024581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_43.png
+  artifactKey: Guid(bb278eaeadeadbb4681c1ad228a9445c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_43.png using Guid(bb278eaeadeadbb4681c1ad228a9445c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed714a4fe0b429e302932dd5351d816') in 0.029049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_160.png
+  artifactKey: Guid(ddce283aa1f53374a8797f73ed4177a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_160.png using Guid(ddce283aa1f53374a8797f73ed4177a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac49099da2850d571bf09fb7a0f6f7ff') in 0.029235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_27.png
+  artifactKey: Guid(f14918f0305568e47bd621da3011058f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_27.png using Guid(f14918f0305568e47bd621da3011058f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3523ccc96aa310261b7791fd6a9f958a') in 0.025671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_92.png
+  artifactKey: Guid(4434a16e3beef5b4094d10d2338802d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_92.png using Guid(4434a16e3beef5b4094d10d2338802d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388eac1268f9e26ed1c4ecd2141f1151') in 0.025788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_149.png
+  artifactKey: Guid(73224b08a5881a942a90985ed33ec99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_149.png using Guid(73224b08a5881a942a90985ed33ec99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6095a3ddd55f8fa599259c0bd934a88') in 0.041709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_151.png
+  artifactKey: Guid(bf3b32a32fc5fd145a4b67b883d1f6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_151.png using Guid(bf3b32a32fc5fd145a4b67b883d1f6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9574d8c0d9166b9660fe28cf4eac7c') in 0.027957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_111.png
+  artifactKey: Guid(9e5147bb1a2ac5d49959f5375a426112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_111.png using Guid(9e5147bb1a2ac5d49959f5375a426112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf11637c3ad3712b68918fb84bade1fe') in 0.029436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_38.png
+  artifactKey: Guid(77cfa9fabbfd775449dd17f9663df9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_38.png using Guid(77cfa9fabbfd775449dd17f9663df9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f6b784dcf4653e886f45692b402363') in 0.026463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_53.png
+  artifactKey: Guid(5a59d0d37e556de42b110db61465a29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_53.png using Guid(5a59d0d37e556de42b110db61465a29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c8731a2980e61b18fb5ae7cefdc371') in 0.028296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_54.png
+  artifactKey: Guid(be859e5217dabfb4d8186c2b80376bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_54.png using Guid(be859e5217dabfb4d8186c2b80376bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ed64c37cd17a52cdcfc2f04cdfc447') in 0.027046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_120.png
+  artifactKey: Guid(ea53e4aac25bb3a46a33a07ac7468614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_120.png using Guid(ea53e4aac25bb3a46a33a07ac7468614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985eef58981ab2989f4147d6cc309a19') in 0.031710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_22.png
+  artifactKey: Guid(0c03f67bd8b3ead4bb7304cf11444b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_22.png using Guid(0c03f67bd8b3ead4bb7304cf11444b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d95f4d408332af7b3d15e33a90183d') in 0.029922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_125.png
+  artifactKey: Guid(1bd68b38c630ea44cbdbb61e9b9ed74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_125.png using Guid(1bd68b38c630ea44cbdbb61e9b9ed74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b96903387ce0777bc81da1e23b5808') in 0.029984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_143.png
+  artifactKey: Guid(b2451bc28ff73534ba7114a0ed5e32b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_143.png using Guid(b2451bc28ff73534ba7114a0ed5e32b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b929c0d0d5d839b26e4cc7a5d089880') in 0.023285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_85.png
+  artifactKey: Guid(ba43973f278a32d439a73b503e96e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_85.png using Guid(ba43973f278a32d439a73b503e96e6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae464b4f7c423e7cac52b47d5e4fddf') in 0.024910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_100.png
+  artifactKey: Guid(dc2c1d31d6cbfa043a010707ab65eb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_100.png using Guid(dc2c1d31d6cbfa043a010707ab65eb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6c97635c70c5489920aadaafc4f7be') in 0.031031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_147.png
+  artifactKey: Guid(cd1ceea9e824caf408cc33c338968d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_147.png using Guid(cd1ceea9e824caf408cc33c338968d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b2f75446d3a2f4ae9a19bbd96dac92') in 0.049794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_2.png
+  artifactKey: Guid(8de9cad48cb87bf479ad0248dc506802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_2.png using Guid(8de9cad48cb87bf479ad0248dc506802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b043e8baadb4349cfa0294283e2e4b') in 0.024851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_55.png
+  artifactKey: Guid(404532f84d696384d813dfd079d0123d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_55.png using Guid(404532f84d696384d813dfd079d0123d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42242b782c2e64148d0e7932dc9a069') in 0.027501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_67.png
+  artifactKey: Guid(3cef5b6f4242b5e43a03cc01565245fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_67.png using Guid(3cef5b6f4242b5e43a03cc01565245fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc44c8db434d65175209e840105f7b7') in 0.028362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_66.png
+  artifactKey: Guid(faff85eb9dac4a644b33ccae527133e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_66.png using Guid(faff85eb9dac4a644b33ccae527133e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01cf172b63dd41167b31389ddf3aa99') in 0.031041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_148.png
+  artifactKey: Guid(c7bb48beac99ec746b3b5a47d16540fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_148.png using Guid(c7bb48beac99ec746b3b5a47d16540fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cb69b296802697790906ca9d1c2e79') in 0.028106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_107.png
+  artifactKey: Guid(685cc56efc56741429c464ea7503650b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_107.png using Guid(685cc56efc56741429c464ea7503650b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33f1f9caee50cbde35462c7b08fe9b0') in 0.029047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_71.png
+  artifactKey: Guid(db8eacb859382874196427b6d7e98da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_71.png using Guid(db8eacb859382874196427b6d7e98da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f3475db4f5989a0b1e0ad267f5bdda') in 0.028661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_16.png
+  artifactKey: Guid(7f963679df3dfd441be48b920bc26f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_16.png using Guid(7f963679df3dfd441be48b920bc26f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e90676962cf84c486a4602d40aed56f') in 0.029757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_25.png
+  artifactKey: Guid(4b360866c51f4cd4199d5c4f1b6dab22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_25.png using Guid(4b360866c51f4cd4199d5c4f1b6dab22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54233fe220ccebaceda7cc396e81642') in 0.032356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_34.png
+  artifactKey: Guid(a3ec935ac6c9be841b481b4a4270015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_34.png using Guid(a3ec935ac6c9be841b481b4a4270015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491f4eb9426cd4a749166aba23facbff') in 0.029755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_31.png
+  artifactKey: Guid(04e392e5ae113ad4bacd6bcce244c59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_31.png using Guid(04e392e5ae113ad4bacd6bcce244c59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618b2201ca4c6a53a9b2a277df7d6431') in 0.026825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_132.png
+  artifactKey: Guid(8705f90ef30b87e4c8026a04e616544f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_132.png using Guid(8705f90ef30b87e4c8026a04e616544f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7a8f31efcdcced579fb55e5e55ff50') in 0.030223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_42.png
+  artifactKey: Guid(9a567d40445e28949b7eff5c3856c8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_42.png using Guid(9a567d40445e28949b7eff5c3856c8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bcca32845068ae281044039835dcae') in 0.029551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_14.png
+  artifactKey: Guid(952d5f101a4e92f46a2e87d6509d6d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_14.png using Guid(952d5f101a4e92f46a2e87d6509d6d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed8d976ff7b1d8a25cd90026ef5aa50') in 0.029258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_131.png
+  artifactKey: Guid(2d9f380aef769b04db0ac327bdd442e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_131.png using Guid(2d9f380aef769b04db0ac327bdd442e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b803f386be1c4728ccf8d934efe381') in 0.026929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_112.png
+  artifactKey: Guid(97aa6dca43578e34684b5021682c1c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_112.png using Guid(97aa6dca43578e34684b5021682c1c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef01b2995fa6e0d828cd556dcfd2d9a') in 0.025159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_50.png
+  artifactKey: Guid(996f1b019d78c8f488d39fd2ca7ed676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_50.png using Guid(996f1b019d78c8f488d39fd2ca7ed676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c49b5359d94cb744726f5d7f690eec') in 0.025914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_56.png
+  artifactKey: Guid(b22711a2cb48b9f45933c8b9b5c2e73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_56.png using Guid(b22711a2cb48b9f45933c8b9b5c2e73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967ae1a1a3ad9f207b575479c2023ddf') in 0.025346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_8.png
+  artifactKey: Guid(cb600501ed1dfd54fb5d14b697dd43b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_8.png using Guid(cb600501ed1dfd54fb5d14b697dd43b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1976b56a5b0a367fc2345674eeb0e90') in 0.027959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Interior/Specific Interior/Gym/Gym_Singles_49.png
+  artifactKey: Guid(206394e5947ac93408737b80e6532191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior/Specific Interior/Gym/Gym_Singles_49.png using Guid(206394e5947ac93408737b80e6532191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a5259e4898d202848512e615b7f9ea') in 0.024775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 419.978934 seconds.
+  path: Assets/Scenes/Gym.unity
+  artifactKey: Guid(e1cf228fd4fa5ee42942aae60f8ca016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gym.unity using Guid(e1cf228fd4fa5ee42942aae60f8ca016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174c379d1546b7db87eb0564eea56ec1') in 0.003644 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013722 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.805 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1806ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1399ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (353ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (114ms)
+			SetupLoadedEditorAssemblies (691ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (400ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2473 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (24.7 KB). Loaded Objects now: 3021.
+Memory consumption went from 116.9 MB to 116.8 MB.
+Total: 4.756300 ms (FindLiveObjects: 0.275100 ms CreateObjectMapping: 0.147400 ms MarkObjects: 4.281600 ms  DeleteObjects: 0.050300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1373.963297 seconds.
+  path: Assets/Scenes/Gym.unity
+  artifactKey: Guid(e1cf228fd4fa5ee42942aae60f8ca016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gym.unity using Guid(e1cf228fd4fa5ee42942aae60f8ca016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2d81b74d92590d7d4a01be521e0fb7') in 0.009289 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011495 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.631 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1632ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1269ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (310ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (681ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (433ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2473 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (24.7 KB). Loaded Objects now: 3024.
+Memory consumption went from 116.9 MB to 116.8 MB.
+Total: 5.149900 ms (FindLiveObjects: 0.269700 ms CreateObjectMapping: 0.118500 ms MarkObjects: 4.732800 ms  DeleteObjects: 0.027400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

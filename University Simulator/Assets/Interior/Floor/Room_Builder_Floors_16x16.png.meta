@@ -142,7 +142,7 @@ TextureImporter:
         width: 48
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -163,7 +163,7 @@ TextureImporter:
         width: 48
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -171,6 +171,27 @@ TextureImporter:
       bones: []
       spriteID: a8254442e3c21fb50800000000000000
       internalID: 6625125172246762122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room_Builder_Floors_16x16_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963118ab487aaf64b9780ecb6ca2414e
+      internalID: 742815624
       vertices: []
       indices: 
       edges: []
@@ -187,6 +208,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Room_Builder_Floors_16x16_2: 6625125172246762122
+      Room_Builder_Floors_16x16_3: 742815624
       Room_Builder_Floors_16x16_0: -4361027884345063476
       Room_Builder_Floors_16x16_1: -8239331382741658118
   spritePackingTag: 

@@ -4,6 +4,41 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
+
+
+    //public GameObject player;
+    //public Camera mainCamera;
+
+    //public float pixelToUnits;
+
+    //void Update()
+    //{
+    //    if (player != null)
+    //    {
+    //        float playerX = player.transform.position.x;
+    //        float playerY = player.transform.position.y;
+
+    //        float roundedX = RoundToNearestPixel(playerX);
+    //        float roundedY = RoundToNearestPixel(playerY);
+
+    //        Vector3 newPos = new Vector3(roundedX, roundedY, -10f);
+
+    //        mainCamera.transform.position = newPos;
+    //    }
+    //}
+
+
+    //public float RoundToNearestPixel(float pos)
+    //{
+    //    float valueInUnits = pos * pixelToUnits;
+    //    valueInUnits = Mathf.Round(valueInUnits);
+    //    float roundedUnits = valueInUnits * (1 / pixelToUnits);
+
+
+    //    return roundedUnits;
+    //}
+
+
     private Transform playerTransform;
     public float followSpeed;
 
@@ -24,5 +59,7 @@ public class CameraFollow : MonoBehaviour
 
         transform.position = smoothPos;
     }
-   
+
+
+
 }
