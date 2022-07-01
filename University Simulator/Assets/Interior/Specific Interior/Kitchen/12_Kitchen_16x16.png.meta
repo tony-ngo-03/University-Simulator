@@ -250,7 +250,7 @@ TextureImporter:
         width: 16
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,7 +271,7 @@ TextureImporter:
         width: 16
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,6 +279,48 @@ TextureImporter:
       bones: []
       spriteID: d6a2945a783f34f41ac67d04acfbb804
       internalID: -483828255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Kitchen_16x16_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 325
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3bff9584d8d6446add6ba8952190b2
+      internalID: 1833077025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 12_Kitchen_16x16_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 374
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cccbed7bf07b7143b5bcf672405369a
+      internalID: -555189525
       vertices: []
       indices: 
       edges: []
@@ -297,8 +339,10 @@ TextureImporter:
       12_Kitchen_16x16_5: -1003042975
       12_Kitchen_16x16_6: -20444630
       12_Kitchen_16x16_3: -1262350573
+      12_Kitchen_16x16_8: 1833077025
       12_Kitchen_16x16_1: 389535225
       12_Kitchen_16x16_4: -64535036
+      12_Kitchen_16x16_9: -555189525
       12_Kitchen_16x16_7: -483828255
       12_Kitchen_16x16_0: 1982022046
       12_Kitchen_16x16_2: -443833129
