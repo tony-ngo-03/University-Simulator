@@ -36,9 +36,7 @@ public class PlayerInformation : MonoBehaviour
     public void ReadName(string name)
     {
         playerName = name;
-        //script.canContinue = true;
-        Debug.Log(script.canContinue);
-        Debug.Log(name + " HERE ");
+        
     }
 
 

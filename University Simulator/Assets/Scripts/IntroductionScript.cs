@@ -8,28 +8,28 @@ using UnityEngine.UI;
 public class IntroductionScript : MonoBehaviour
 {
 
-    private int counter = 0;
+    public int counter = 0;
     private Vector3 originalCollegePlace;
     public bool canContinue;
     public GameObject[] text;
+    private PlayerInformation script;
 
     void Start()
     {
+        script = GameObject.Find("PlayerInformation").GetComponent<PlayerInformation>();
         originalCollegePlace = GameObject.Find("CollegeStudent").transform.position;
     }
     void Update()
     {
-        if(counter == 2)
+        if (counter == 2 && script.playerName == "")
         {
-            if (Input.GetKeyDown(KeyCode.Return))
-            {
-                canContinue = true;
-                counter++;
-                Debug.Log(counter);
-                changeText(counter);
-            }
+            canContinue = false;
         }
-        if(counter == text.Length - 1)
+        else if(counter == 2 && script.playerName != "")
+        {
+            canContinue = true;
+        }
+        if (counter == text.Length - 1)
         {
             canContinue = false;
             SceneManager.LoadScene("MainMap");
@@ -52,7 +52,7 @@ public class IntroductionScript : MonoBehaviour
 
 
 
-    private void changeText(int counter)
+    public void changeText(int counter)
     {
         text[counter - 1].SetActive(false);
         text[counter].SetActive(true);
