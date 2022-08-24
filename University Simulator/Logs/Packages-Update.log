@@ -63,6 +63,7 @@ The following packages were updated:
   com.unity.ide.rider from version 2.0.7 to 3.0.14
   com.unity.ide.visualstudio from version 2.0.14 to 2.0.15
   com.unity.timeline from version 1.4.8 to 1.6.4
+<<<<<<< HEAD
 
 === Tue Aug 23 22:18:42 2022
 
@@ -76,3 +77,5 @@ The following packages were updated:
   com.unity.collab-proxy from version 1.15.17 to 1.17.1
   com.unity.ide.rider from version 3.0.14 to 3.0.15
   com.unity.ide.visualstudio from version 2.0.15 to 2.0.16
+=======
+>>>>>>> parent of 2333fa8 (Delete University Simulator directory)
