@@ -79,3 +79,16 @@ The following packages were updated:
   com.unity.ide.visualstudio from version 2.0.15 to 2.0.16
 =======
 >>>>>>> parent of 2333fa8 (Delete University Simulator directory)
+
+=== Wed Aug 24 17:28:07 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.2d.animation from version 7.0.5 to 7.0.6
+  com.unity.2d.psdimporter from version 6.0.3 to 6.0.4
+  com.unity.2d.spriteshape from version 7.0.4 to 7.0.5
+  com.unity.collab-proxy from version 1.15.17 to 1.17.1
+  com.unity.ide.rider from version 3.0.14 to 3.0.15
+  com.unity.ide.visualstudio from version 2.0.15 to 2.0.16
