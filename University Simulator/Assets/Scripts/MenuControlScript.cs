@@ -9,6 +9,7 @@ public class MenuControlScript : MonoBehaviour
     public GameObject quitButton;
     public GameObject text;
     public GameObject worldCamera;
+    public GameObject optionButton;
     private bool isPaused;
     public void playGame()
     {
@@ -31,6 +32,7 @@ public class MenuControlScript : MonoBehaviour
         resumeButton.SetActive(true);
         quitButton.SetActive(true);
         text.SetActive(true);
+        optionButton.SetActive(true);
     }
 
     void Update()
@@ -59,5 +61,6 @@ public class MenuControlScript : MonoBehaviour
         text.SetActive(false);
         quitButton.SetActive(false);
         resumeButton.SetActive(false);
+        optionButton.SetActive(false);
     }
 }
