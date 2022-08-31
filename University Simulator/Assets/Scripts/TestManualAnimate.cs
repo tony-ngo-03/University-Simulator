@@ -14,9 +14,10 @@ public class TestManualAnimate : MonoBehaviour
     public Sprite[] upWalk;
     public Sprite[] sideWalk;
 
+    public Sprite[] sitting;
+
 
     private Sprite[] currentSprite;
-
 
 
 
@@ -40,53 +41,63 @@ public class TestManualAnimate : MonoBehaviour
     {
         frames++;
 
-
-        if (!playerMovementScript.isWalking)
+        if (!playerMovementScript.isSiting)
         {
-            if (playerMovementScript.facingDown)
+            if (!playerMovementScript.isWalking)
             {
-                currentSprite = downIdle;
-            }
-            if (playerMovementScript.facingUp)
-            {
-                currentSprite = upIdle;
-            }
-            if (playerMovementScript.facingSide)
-            {
-                if (playerMovementScript.flip)
+                if (playerMovementScript.facingDown)
                 {
-                    sr.flipX = true;
+                    currentSprite = downIdle;
                 }
-                else
+                if (playerMovementScript.facingUp)
                 {
-                    sr.flipX = false;
+                    currentSprite = upIdle;
                 }
-                currentSprite = sideIdle;
+                if (playerMovementScript.facingSide)
+                {
+                    if (playerMovementScript.flip)
+                    {
+                        sr.flipX = true;
+                    }
+                    else
+                    {
+                        sr.flipX = false;
+                    }
+                    currentSprite = sideIdle;
+                }
+            }
+            else
+            {
+                if (playerMovementScript.facingDown)
+                {
+                    currentSprite = downWalk;
+                }
+                if (playerMovementScript.facingUp)
+                {
+                    currentSprite = upWalk;
+                }
+                if (playerMovementScript.facingSide)
+                {
+                    if (playerMovementScript.flip)
+                    {
+                        sr.flipX = true;
+                    }
+                    else
+                    {
+                        sr.flipX = false;
+                    }
+                    currentSprite = sideWalk;
+                }
             }
         }
         else
         {
-            if (playerMovementScript.facingDown)
-            {
-                currentSprite = downWalk;
-            }
-            if (playerMovementScript.facingUp)
-            {
-                currentSprite = upWalk;
-            }
-            if (playerMovementScript.facingSide)
-            {
-                if (playerMovementScript.flip)
-                {
-                    sr.flipX = true;
-                }
-                else
-                {
-                    sr.flipX = false;
-                }
-                currentSprite = sideWalk;
-            }
+            currentSprite = sitting;
+            
         }
+        
+
+        
 
 
         if(frames % interval == 0)

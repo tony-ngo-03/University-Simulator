@@ -561,7 +561,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 1060919490, guid: 3d2ceb4de2a713147abc06da178fec62, type: 3}
     m_PressedSprite: {fileID: 1060919490, guid: 3d2ceb4de2a713147abc06da178fec62, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -694,7 +694,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: -1443939910, guid: 3d2ceb4de2a713147abc06da178fec62, type: 3}
     m_PressedSprite: {fileID: -1443939910, guid: 3d2ceb4de2a713147abc06da178fec62, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -877,6 +877,7 @@ MonoBehaviour:
   quitButton: {fileID: 0}
   text: {fileID: 0}
   worldCamera: {fileID: 0}
+  optionButton: {fileID: 0}
 --- !u!1 &952594374
 GameObject:
   m_ObjectHideFlags: 0

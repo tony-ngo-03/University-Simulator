@@ -8,6 +8,8 @@ public class GenericDialougeScript : MonoBehaviour
     // Start is called before the first frame update
     public Sprite character;
     public string characterName;
+    public string[] dialogueText;
+    public string[] optionText;
     public bool inRange;
     void Start()
     {

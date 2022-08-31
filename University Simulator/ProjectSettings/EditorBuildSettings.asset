@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/menu.unity
+    path: Assets/Scenes/Menu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Introduction.unity
@@ -14,10 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMap.unity
     guid: c0eb4850558eeef48addef5a40b0c02b
-  - enabled: 1
-    path: Assets/Scenes/Jester.unity
-    guid: 07aa40493ea436e41bc4472ca759b6df
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Scenes/TestCustomCharacter.unity
     guid: 3e4634b954eb41545920d7aa864663b0
+  - enabled: 1
+    path: Assets/Scenes/Dorm_Clown.unity
+    guid: 8326b08afcee90a46bc8a20172a91a6d
   m_configObjects: {}

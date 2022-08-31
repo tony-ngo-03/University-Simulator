@@ -12,22 +12,34 @@ public class PlayerMovement : MonoBehaviour
     public bool facingSide;
     public bool flip;
 
+    public bool isSiting;
+
     private SpriteRenderer spriteRenderer;
     public float speed;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        //anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
+        if (Input.GetKeyDown(KeyCode.E) && isSiting)
+        {
+            speed = 0.65f;
+            isSiting = false;
+        }
+        if (Input.GetKeyDown(KeyCode.E) && !isSiting)
+        {
+            isSiting = true;
+            speed = 0f;
+        }
+
 
         if(horizontal == 0 && vertical == 0)
         {
@@ -85,6 +97,27 @@ public class PlayerMovement : MonoBehaviour
         //anim.SetBool("FacingUp", false);
 //anim.SetBool("FacingSide", false);
       //  anim.SetBool("isWalking", false);
+    }
+
+
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Door")
+        {
+            EnterBuildingScript doorScript = collision.gameObject.GetComponent<EnterBuildingScript>();
+            doorScript.inRange = true;
+        }
+    }
+
+
+    public void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Door")
+        {
+            EnterBuildingScript doorScript = collision.gameObject.GetComponent<EnterBuildingScript>();
+            doorScript.inRange = false;
+        }
     }
 
 }

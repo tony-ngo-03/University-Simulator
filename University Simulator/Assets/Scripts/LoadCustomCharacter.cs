@@ -21,6 +21,13 @@ public class LoadCustomCharacter : MonoBehaviour
     private string hairstyles = "Hairstyle/";
     private string hats = "Hats/";    // needs custom because loaded is different
     private string backpack = "Backpacks/";
+
+
+    public bool isSitting;
+
+
+
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -59,6 +66,8 @@ public class LoadCustomCharacter : MonoBehaviour
                     temp.downWalk = loadSprites(46, tempSprites);
                     temp.upWalk = loadSprites(34, tempSprites);
                     temp.sideWalk = loadSprites(28, tempSprites);
+
+                    temp.sitting = loadSittingSprites(70, 75, tempSprites);
                 }
             }
             // eyes
@@ -75,6 +84,9 @@ public class LoadCustomCharacter : MonoBehaviour
                 temp.downWalk = loadSprites(33, tempSprites);
                 temp.upWalk = loadOnlyOne(tempSprites.Length - 1, tempSprites);
                 temp.sideWalk = loadSprites(21, tempSprites);
+
+
+                temp.sitting = loadSittingSprites(49, 53, tempSprites);
             }
             // outfit
             if(i == 2)
@@ -89,6 +101,8 @@ public class LoadCustomCharacter : MonoBehaviour
                 temp.downWalk = loadSprites(46, tempSprites);
                 temp.upWalk = loadSprites(34, tempSprites);
                 temp.sideWalk = loadSprites(28, tempSprites);
+
+                temp.sitting = loadSittingSprites(52, 57, tempSprites);
             }
             // hat
             if(i == 3)
@@ -115,6 +129,8 @@ public class LoadCustomCharacter : MonoBehaviour
                     temp.downWalk = loadSprites(46, tempSprites);
                     temp.upWalk = loadSprites(34, tempSprites);
                     temp.sideWalk = loadSprites(28, tempSprites);
+
+                    temp.sitting = loadSittingSprites(58, 63, tempSprites);
                 }
                
             }
@@ -132,6 +148,8 @@ public class LoadCustomCharacter : MonoBehaviour
                 temp.downWalk = loadSprites(46, tempSprites);
                 temp.upWalk = loadSprites(34, tempSprites);
                 temp.sideWalk = loadSprites(28, tempSprites);
+
+                temp.sitting = loadSittingSprites(52, 57, tempSprites);
             }
             // hair
             if(i == 5)
@@ -147,6 +165,8 @@ public class LoadCustomCharacter : MonoBehaviour
                 temp.downWalk = loadSprites(46, tempSprites);
                 temp.upWalk = loadSprites(34, tempSprites);
                 temp.sideWalk = loadSprites(28, tempSprites);
+
+                temp.sitting = loadSittingSprites(58, 63, tempSprites);
             }
         }
 
@@ -171,6 +191,19 @@ public class LoadCustomCharacter : MonoBehaviour
     {
         Sprite[] temp = new Sprite[6];
         for(int i = 0; i < 6; i++)
+        {
+            temp[i] = tempSprites[begin];
+            begin++;
+        }
+
+        return temp;
+    }
+
+    private Sprite[] loadSittingSprites(int begin, int end, Sprite[] tempSprites)
+    {
+        Sprite[] temp = new Sprite[5];
+        int counter = end - begin;
+        for(int i = 0; i < counter; i++)
         {
             temp[i] = tempSprites[begin];
             begin++;
