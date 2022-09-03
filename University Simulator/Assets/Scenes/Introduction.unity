@@ -296,14 +296,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 109031172}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 936d4f15332dfc74dabb4e78d3565ae2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 0}
-  beforeName: 
-  afterName: ', great!'
+  beforeName: 'Okay, '
+  afterName: ', let''s see what you look like!'
 --- !u!222 &109031175
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -365,7 +365,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TEST
+  m_Text: 
 --- !u!1 &114071250
 GameObject:
   m_ObjectHideFlags: 0
@@ -929,7 +929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 0}
   beforeName: 'College Mentor: Okay, '
-  afterName: you look interesting! Now then, let us introduce you to the University.
+  afterName: ' you look interesting! Now then, let us introduce you to the University.'
 --- !u!222 &283217466
 CanvasRenderer:
   m_ObjectHideFlags: 0

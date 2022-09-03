@@ -56,6 +56,9 @@ public class LoadCustomCharacter : MonoBehaviour
                     temp.downWalk = loadSprites(48, tempSprites);
                     temp.upWalk = loadSprites(36, tempSprites);
                     temp.sideWalk = loadSprites(30, tempSprites);
+                    temp.sitting[0] = tempSprites[69];
+
+                    temp.sitting = loadSittingSprites(70, 75, tempSprites);
                 }
                 else
                 {
@@ -67,7 +70,7 @@ public class LoadCustomCharacter : MonoBehaviour
                     temp.upWalk = loadSprites(34, tempSprites);
                     temp.sideWalk = loadSprites(28, tempSprites);
 
-                    temp.sitting = loadSittingSprites(70, 75, tempSprites);
+                    temp.sitting = loadSittingSprites(65, 70, tempSprites);
                 }
             }
             // eyes
@@ -86,7 +89,8 @@ public class LoadCustomCharacter : MonoBehaviour
                 temp.sideWalk = loadSprites(21, tempSprites);
 
 
-                temp.sitting = loadSittingSprites(49, 53, tempSprites);
+                temp.sitting = loadSittingSprites(39, 53, tempSprites);
+                temp.sitting[4] = tempSprites[39];
             }
             // outfit
             if(i == 2)
@@ -150,6 +154,7 @@ public class LoadCustomCharacter : MonoBehaviour
                 temp.sideWalk = loadSprites(28, tempSprites);
 
                 temp.sitting = loadSittingSprites(52, 57, tempSprites);
+
             }
             // hair
             if(i == 5)
@@ -201,10 +206,12 @@ public class LoadCustomCharacter : MonoBehaviour
 
     private Sprite[] loadSittingSprites(int begin, int end, Sprite[] tempSprites)
     {
-        Sprite[] temp = new Sprite[5];
+        Debug.Log("LOADINGGGG SITTING");
         int counter = end - begin;
+        Sprite[] temp = new Sprite[end - begin];
         for(int i = 0; i < counter; i++)
         {
+            Debug.Log("BEGIN: " + begin + "\tI: " + i);
             temp[i] = tempSprites[begin];
             begin++;
         }

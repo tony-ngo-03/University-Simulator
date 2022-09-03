@@ -95,12 +95,25 @@ public class TestManualAnimate : MonoBehaviour
             currentSprite = sitting;
             
         }
-        
-
-        
 
 
-        if(frames % interval == 0)
+
+        if (playerMovementScript.isSiting)
+        {
+            if (frames == interval * 5)
+            {
+                frames = 0;
+            }
+        }
+        else
+        {
+            if (frames == interval * 6)
+            {
+                frames = 0;
+            }
+        }
+
+        if (frames % interval == 0)
         {
             counter++;
             if(counter == currentSprite.Length)
@@ -109,9 +122,6 @@ public class TestManualAnimate : MonoBehaviour
             }
             sr.sprite = currentSprite[counter];
         }
-        if(frames == interval * 6)
-        {
-            frames = 0;
-        }
+       
     }
 }

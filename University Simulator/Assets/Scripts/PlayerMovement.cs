@@ -29,15 +29,17 @@ public class PlayerMovement : MonoBehaviour
 
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
-        if (Input.GetKeyDown(KeyCode.E) && isSiting)
+
+        if (Input.GetKeyDown(KeyCode.F)) 
         {
-            speed = 0.65f;
-            isSiting = false;
-        }
-        if (Input.GetKeyDown(KeyCode.E) && !isSiting)
-        {
-            isSiting = true;
-            speed = 0f;
+            if (isSiting)
+            {
+                isSiting = false;
+            }
+            else
+            {
+                isSiting = true;
+            }
         }
 
 
