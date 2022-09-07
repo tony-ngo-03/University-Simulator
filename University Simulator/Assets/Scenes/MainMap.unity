@@ -129203,6 +129203,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 554186984722136841, guid: 693b7ddac91cde749a71ae66701f7b1e, type: 3}
+      propertyPath: speed
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 768132747097419126, guid: 693b7ddac91cde749a71ae66701f7b1e, type: 3}
       propertyPath: sitting.Array.size
       value: 6

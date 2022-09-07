@@ -34,10 +34,12 @@ public class PlayerMovement : MonoBehaviour
         {
             if (isSiting)
             {
+                speed = 0.75f;
                 isSiting = false;
             }
             else
             {
+                speed = 0.0f;
                 isSiting = true;
             }
         }

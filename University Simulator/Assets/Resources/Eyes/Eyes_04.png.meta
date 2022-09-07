@@ -6,7 +6,7 @@ TextureImporter:
       213: 3503313940700660692
     second: Eyes_04_0
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -66,6 +66,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -93,6 +94,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
@@ -7192,7 +7205,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7200,6 +7213,27 @@ TextureImporter:
       bones: []
       spriteID: 7b2f7fee444a3f64bb192ab0f321cb07
       internalID: -2060145881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eyes_04_338
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c90cf684996f274b83f351a4ebb3aab
+      internalID: -1182652534
       vertices: []
       indices: 
       edges: []
@@ -7216,10 +7250,10 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Eyes_04_294: -68914300
-      Eyes_04_94: -847411471
+      Eyes_04_106: 465986702
       Eyes_04_42: -1323746487
       Eyes_04_267: 740321204
-      Eyes_04_131: 224864472
+      Eyes_04_246: -346058218
       Eyes_04_252: -1663566593
       Eyes_04_11: 1641336669
       Eyes_04_136: -709121183
@@ -7295,8 +7329,8 @@ TextureImporter:
       Eyes_04_181: -1430830145
       Eyes_04_195: -57645294
       Eyes_04_162: -1267008040
-      Eyes_04_205: -1011934428
       Eyes_04_156: 804052811
+      Eyes_04_205: -1011934428
       Eyes_04_337: -2060145881
       Eyes_04_36: -1816544753
       Eyes_04_66: -967008066
@@ -7409,6 +7443,7 @@ TextureImporter:
       Eyes_04_272: -860181027
       Eyes_04_299: -583359352
       Eyes_04_155: -315274469
+      Eyes_04_338: -1182652534
       Eyes_04_115: -256733369
       Eyes_04_239: 297082528
       Eyes_04_174: 352632340
@@ -7551,8 +7586,8 @@ TextureImporter:
       Eyes_04_313: 563960308
       Eyes_04_84: -1607551449
       Eyes_04_101: 1272584123
-      Eyes_04_106: 465986702
-      Eyes_04_246: -346058218
+      Eyes_04_94: -847411471
+      Eyes_04_131: 224864472
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -56,9 +56,8 @@ public class LoadCustomCharacter : MonoBehaviour
                     temp.downWalk = loadSprites(48, tempSprites);
                     temp.upWalk = loadSprites(36, tempSprites);
                     temp.sideWalk = loadSprites(30, tempSprites);
-                    temp.sitting[0] = tempSprites[69];
 
-                    temp.sitting = loadSittingSprites(70, 75, tempSprites);
+                    temp.sitting = loadSittingSprites(70, 76, tempSprites);
                 }
                 else
                 {
@@ -88,9 +87,13 @@ public class LoadCustomCharacter : MonoBehaviour
                 temp.upWalk = loadOnlyOne(tempSprites.Length - 1, tempSprites);
                 temp.sideWalk = loadSprites(21, tempSprites);
 
-
-                temp.sitting = loadSittingSprites(39, 53, tempSprites);
-                temp.sitting[4] = tempSprites[39];
+                temp.sitting = new Sprite[6];
+                temp.sitting[0] = tempSprites[39];
+                temp.sitting[1] = tempSprites[40];
+                temp.sitting[2] = tempSprites[41];
+                temp.sitting[3] = tempSprites[42];
+                temp.sitting[4] = tempSprites[338];
+                temp.sitting[5] = tempSprites[43];
             }
             // outfit
             if(i == 2)
@@ -106,7 +109,7 @@ public class LoadCustomCharacter : MonoBehaviour
                 temp.upWalk = loadSprites(34, tempSprites);
                 temp.sideWalk = loadSprites(28, tempSprites);
 
-                temp.sitting = loadSittingSprites(52, 57, tempSprites);
+                temp.sitting = loadSittingSprites(52, 58, tempSprites);
             }
             // hat
             if(i == 3)
@@ -134,7 +137,7 @@ public class LoadCustomCharacter : MonoBehaviour
                     temp.upWalk = loadSprites(34, tempSprites);
                     temp.sideWalk = loadSprites(28, tempSprites);
 
-                    temp.sitting = loadSittingSprites(58, 63, tempSprites);
+                    temp.sitting = loadSittingSprites(58, 64, tempSprites);
                 }
                
             }
@@ -153,7 +156,7 @@ public class LoadCustomCharacter : MonoBehaviour
                 temp.upWalk = loadSprites(34, tempSprites);
                 temp.sideWalk = loadSprites(28, tempSprites);
 
-                temp.sitting = loadSittingSprites(52, 57, tempSprites);
+                temp.sitting = loadSittingSprites(52, 58, tempSprites);
 
             }
             // hair
@@ -171,7 +174,7 @@ public class LoadCustomCharacter : MonoBehaviour
                 temp.upWalk = loadSprites(34, tempSprites);
                 temp.sideWalk = loadSprites(28, tempSprites);
 
-                temp.sitting = loadSittingSprites(58, 63, tempSprites);
+                temp.sitting = loadSittingSprites(58, 64, tempSprites);
             }
         }
 

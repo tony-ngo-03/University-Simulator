@@ -6,7 +6,7 @@ TextureImporter:
       213: 5329685411571569098
     second: Eyes_02_0
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -66,6 +66,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -93,6 +94,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
@@ -7192,7 +7205,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7200,6 +7213,27 @@ TextureImporter:
       bones: []
       spriteID: 256efe6546c2e8842bb53f6e240396a5
       internalID: 196091702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eyes_02_338
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd8483a5ccf79849a57e4436c03ffe8
+      internalID: -869641322
       vertices: []
       indices: 
       edges: []
@@ -7215,12 +7249,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Eyes_02_125: -315175321
+      Eyes_02_135: -1145341667
+      Eyes_02_160: 1658804220
       Eyes_02_24: 304664460
       Eyes_02_166: 1664444748
       Eyes_02_283: 2109595376
-      Eyes_02_205: 405199909
-      Eyes_02_142: 1106831564
+      Eyes_02_143: 1222365334
       Eyes_02_221: 49744705
       Eyes_02_105: 932547654
       Eyes_02_2: 1681438237
@@ -7244,7 +7278,6 @@ TextureImporter:
       Eyes_02_162: -2069137940
       Eyes_02_47: -1166002684
       Eyes_02_148: 303658214
-      Eyes_02_250: -1432403901
       Eyes_02_171: 922322471
       Eyes_02_234: 1531014000
       Eyes_02_51: -470315280
@@ -7258,6 +7291,7 @@ TextureImporter:
       Eyes_02_239: 2023068124
       Eyes_02_238: 1653177570
       Eyes_02_122: -35343603
+      Eyes_02_125: -315175321
       Eyes_02_83: -685942277
       Eyes_02_80: -1202804879
       Eyes_02_272: -2089402040
@@ -7289,6 +7323,7 @@ TextureImporter:
       Eyes_02_248: 646029053
       Eyes_02_158: 896938939
       Eyes_02_134: -531542166
+      Eyes_02_338: -869641322
       Eyes_02_137: 92519280
       Eyes_02_233: -1639663152
       Eyes_02_334: -1670582897
@@ -7373,10 +7408,10 @@ TextureImporter:
       Eyes_02_260: 250848511
       Eyes_02_159: -1530468372
       Eyes_02_107: 1233196486
-      Eyes_02_96: 858490374
+      Eyes_02_3: 2047454384
       Eyes_02_30: 1526986297
       Eyes_02_240: 858203621
-      Eyes_02_3: 2047454384
+      Eyes_02_96: 858490374
       Eyes_02_84: -239275374
       Eyes_02_55: -1995676923
       Eyes_02_110: -1899415187
@@ -7537,22 +7572,22 @@ TextureImporter:
       Eyes_02_35: 1991801434
       Eyes_02_322: -376333235
       Eyes_02_267: 674299304
-      Eyes_02_179: 1709559688
       Eyes_02_149: 1545808516
-      Eyes_02_160: 1658804220
-      Eyes_02_245: 1638122855
-      Eyes_02_12: 443526138
-      Eyes_02_277: -895520662
       Eyes_02_94: 1298088260
-      Eyes_02_262: -1405648983
-      Eyes_02_330: -618048414
-      Eyes_02_212: -785841014
+      Eyes_02_12: 443526138
       Eyes_02_118: 734118078
+      Eyes_02_212: -785841014
+      Eyes_02_277: -895520662
+      Eyes_02_245: 1638122855
+      Eyes_02_250: -1432403901
+      Eyes_02_262: -1405648983
+      Eyes_02_179: 1709559688
+      Eyes_02_142: 1106831564
+      Eyes_02_205: 405199909
       Eyes_02_296: -566283747
-      Eyes_02_143: 1222365334
       Eyes_02_264: -37192613
+      Eyes_02_330: -618048414
       Eyes_02_310: -1501218329
-      Eyes_02_135: -1145341667
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

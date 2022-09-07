@@ -100,6 +100,8 @@ public class TestManualAnimate : MonoBehaviour
 
         if (playerMovementScript.isSiting)
         {
+
+            interval = 15;
             if (frames == interval * 5)
             {
                 frames = 0;

@@ -14,6 +14,7 @@ public class IntroductionScript : MonoBehaviour
     public GameObject[] text;
     private PlayerInformation script;
 
+
     void Start()
     {
         script = GameObject.Find("PlayerInformation").GetComponent<PlayerInformation>();
@@ -21,17 +22,8 @@ public class IntroductionScript : MonoBehaviour
     }
     void Update()
     {
-        if (counter == 2 && script.playerName == "")
-        {
-            canContinue = false;
-        }
-        else if(counter == 2 && script.playerName != "")
-        {
-            canContinue = true;
-        }
         if (counter == text.Length - 1)
         {
-            canContinue = false;
             SceneManager.LoadScene("MainMap");
         }
         if(counter == 5 && counter == 8)
@@ -42,12 +34,7 @@ public class IntroductionScript : MonoBehaviour
         {
             GameObject.Find("CollegeStudent").transform.position = originalCollegePlace;
         }
-       if (Input.GetKeyDown(KeyCode.Return) && canContinue)
-        {
-            counter++;
-            Debug.Log(counter);
-            changeText(counter);
-        }
+       
     }
 
 
@@ -66,6 +53,23 @@ public class IntroductionScript : MonoBehaviour
     public void SetMajor()
     {
 
+    }
+
+    public void continueButton()
+    {
+        if(counter == 2)
+        {
+            if(!script.playerName.Equals(""))
+            {
+                counter++;
+                changeText(counter);
+            }
+        }
+        else
+        {
+            counter++;
+            changeText(counter);
+        }
     }
    
 }
