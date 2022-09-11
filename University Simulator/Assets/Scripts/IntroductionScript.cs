@@ -22,18 +22,7 @@ public class IntroductionScript : MonoBehaviour
     }
     void Update()
     {
-        if (counter == text.Length - 1)
-        {
-            SceneManager.LoadScene("MainMap");
-        }
-        if(counter == 5 && counter == 8)
-        {
-            GameObject.Find("CollegeStudent").transform.position = Vector3.zero;
-        }
-        else
-        {
-            GameObject.Find("CollegeStudent").transform.position = originalCollegePlace;
-        }
+       
        
     }
 
@@ -41,6 +30,18 @@ public class IntroductionScript : MonoBehaviour
 
     public void changeText(int counter)
     {
+        if (counter == text.Length - 1)
+        {
+            SceneManager.LoadScene("MainMap");
+        }
+        if (counter == 5 && counter == 8)
+        {
+            GameObject.Find("CollegeStudent").transform.position = Vector3.zero;
+        }
+        else
+        {
+            GameObject.Find("CollegeStudent").transform.position = originalCollegePlace;
+        }
         text[counter - 1].SetActive(false);
         text[counter].SetActive(true);
     }
@@ -50,9 +51,9 @@ public class IntroductionScript : MonoBehaviour
         SceneManager.LoadScene("TestCustomCharacter");
     }
 
-    public void SetMajor()
+    public void SetMajor(string major)
     {
-
+        script.playerMajor = major;
     }
 
     public void continueButton()
@@ -60,6 +61,14 @@ public class IntroductionScript : MonoBehaviour
         if(counter == 2)
         {
             if(!script.playerName.Equals(""))
+            {
+                counter++;
+                changeText(counter);
+            }
+        }
+        else if(counter == 8)
+        {
+            if (!script.playerMajor.Equals(""))
             {
                 counter++;
                 changeText(counter);
