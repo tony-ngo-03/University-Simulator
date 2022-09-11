@@ -6,16 +6,20 @@ public class GenericColliderScript : MonoBehaviour
 {
     private GameObject topEdge;
     private GameObject bottomEdge;
-    private Transform playerPos;
+    public Transform playerPos;
     private SpriteRenderer spriteR;
+    public int playerLayerNum = 7;
+    public int thisObjectLayer;
     public float offset;
     // Start is called before the first frame update
     void Start()
     {
+        playerPos = GameObject.Find("Player").gameObject.transform;
         topEdge = transform.Find("TopEdge").gameObject;
         bottomEdge = transform.Find("BottomEdge").gameObject;
-        playerPos = GameObject.FindGameObjectWithTag("Player").gameObject.transform;
+           
         spriteR = GetComponent<SpriteRenderer>();
+        thisObjectLayer = spriteR.sortingOrder;
     }
 
     // Update is called once per frame
@@ -29,13 +33,13 @@ public class GenericColliderScript : MonoBehaviour
         {
             topEdge.SetActive(true);
             bottomEdge.SetActive(false);
-            spriteR.sortingOrder = 1;
+            spriteR.sortingOrder = thisObjectLayer;
         }
         else
         {
             topEdge.SetActive(false);
             bottomEdge.SetActive(true);
-            spriteR.sortingOrder = 5;
+            spriteR.sortingOrder = playerLayerNum + 5;
         }
     }
 }

@@ -15,6 +15,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: InteractableObject
       objectReference: {fileID: 0}
+    - target: {fileID: 8329043299517596789, guid: 4b2cc019b3b84864ebe44bc559b1b733, type: 3}
+      propertyPath: offset
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 8329043299517596790, guid: 4b2cc019b3b84864ebe44bc559b1b733, type: 3}
       propertyPath: m_RootOrder
       value: 0
