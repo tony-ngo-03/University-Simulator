@@ -18,7 +18,7 @@ public class IntroductionScript : MonoBehaviour
     void Start()
     {
         script = GameObject.Find("PlayerInformation").GetComponent<PlayerInformation>();
-        originalCollegePlace = GameObject.Find("CollegeStudent").transform.position;
+        originalCollegePlace = GameObject.Find("CollegeMentor").transform.position;
     }
     void Update()
     {
@@ -34,13 +34,13 @@ public class IntroductionScript : MonoBehaviour
         {
             SceneManager.LoadScene("MainMap");
         }
-        if (counter == 5 && counter == 8)
+        if (counter == 5 || counter == 8)
         {
-            GameObject.Find("CollegeStudent").transform.position = Vector3.zero;
+            GameObject.Find("CollegeMentor").transform.position = Vector3.zero;
         }
         else
         {
-            GameObject.Find("CollegeStudent").transform.position = originalCollegePlace;
+            GameObject.Find("CollegeMentor").transform.position = originalCollegePlace;
         }
         text[counter - 1].SetActive(false);
         text[counter].SetActive(true);

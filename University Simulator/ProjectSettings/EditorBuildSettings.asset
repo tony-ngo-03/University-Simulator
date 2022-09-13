@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dorm_Clown.unity
     guid: 8326b08afcee90a46bc8a20172a91a6d
+  - enabled: 1
+    path: Assets/Scenes/Dialogue.unity
+    guid: 54af36562f67ea849a8cc6d8828c5a35
   m_configObjects: {}

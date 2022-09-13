@@ -11,16 +11,22 @@ public class GenericDialougeScript : MonoBehaviour
     public string[] dialogueText;
     public string[] optionText;
     public bool inRange;
+
+    public dialogueInformation script;
     void Start()
     {
-        
+        script = GameObject.Find("dialogueInformation").gameObject.GetComponent<dialogueInformation>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(inRange && Input.GetKeyDown(KeyCode.F))
+        if(inRange && Input.GetKeyDown(KeyCode.E))
         {
+            // change the dialogue to be transferred to the scence into this;
+            // reset the array first
+            script.dialogue = new string[this.dialogueText.Length];
+            script.dialogue = this.dialogueText;
             SceneManager.LoadScene("Dialogue");
         }
     }
@@ -41,4 +47,6 @@ public class GenericDialougeScript : MonoBehaviour
             inRange = false;
         }
     }
+
+
 }

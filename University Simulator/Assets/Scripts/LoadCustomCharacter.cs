@@ -209,12 +209,10 @@ public class LoadCustomCharacter : MonoBehaviour
 
     private Sprite[] loadSittingSprites(int begin, int end, Sprite[] tempSprites)
     {
-        Debug.Log("LOADINGGGG SITTING");
         int counter = end - begin;
         Sprite[] temp = new Sprite[end - begin];
         for(int i = 0; i < counter; i++)
         {
-            Debug.Log("BEGIN: " + begin + "\tI: " + i);
             temp[i] = tempSprites[begin];
             begin++;
         }
